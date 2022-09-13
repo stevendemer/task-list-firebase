@@ -88,7 +88,7 @@ const Signup = () => {
           Don't have an account ?
         </div>
         <button className="bg-gray-300 rounded-full px-4 hover:bg-gray-100 transition-all duration-200 mt-2 text-sm md:text-lg items-center font-semibold text-gray-600">
-          <Link to="/sign-in">Sign up</Link>
+          <Link to="/sign-up">Sign up</Link>
         </button>
       </div>
     </div>
