@@ -34,10 +34,12 @@ const Signup = () => {
     if (!data.password || !data.email || !data.confirmPassword) {
       alert("Fields are empty !");
       reset();
+      return;
     }
     if (data.password !== data.confirmPassword) {
       alert("Passwords must match !");
       reset();
+      return;
     }
     // create the new user
     signUp(data.email, data.password);
